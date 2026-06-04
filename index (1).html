@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 你的 SEO 標題與描述 [1] -->
+    <title>今天吃什麼？｜美食地圖大公開</title>
+    <meta name="description" content="分享各地美食推薦與真實食記，帶你發現好吃的每一餐">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. 網站標題與導覽列 [1] -->
+    <header>
+        <h1>今天吃什麼？</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我</a></li>
+                <li><a href="regions.html">地區小吃</a></li>
+                <li><a href="budget.html">平價美食</a></li>
+                <li><a href="premium.html">進階推薦</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 2. 主要內容區：上中下結構 [1] -->
+    <main>
+        <section class="hero">
+            <h2>歡迎來到我的美食地圖</h2>
+            <p>分享我一般會吃得好吃的小東西 [3]</p>
+        </section>
+
+        <section class="features">
+            <h3>特色小吃簡介</h3>
+            <!-- 預留圖片與文字位置 [1] -->
+            <div class="snack-card">
+                <img src="snack01.jpg" alt="推薦小吃">
+                <p>在地人推薦的美味！</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 3. 頁尾：聯絡方式 [1] -->
+    <footer>
+        <p>聯絡我：your-email@example.com</p>
+        <p>&copy; 2024 江誌恩的美食專題</p>
+    </footer>
+
+</body>
+</html>
+body {
+    font-family: "Microsoft JhengHei", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* 頁首與導覽列 */
+header {
+    background-color: #f8b400; /* 溫暖的小吃色調 */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 主要內容區域 [1] */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
+    text-align: center;
+    background: #fffbe6;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.snack-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.snack-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 頁尾聯絡資訊 [1] */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
